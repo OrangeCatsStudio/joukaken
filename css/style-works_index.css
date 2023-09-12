@@ -62,3 +62,12 @@ a{
     font-size: 12px;
     padding: 7px 0 3px;
 }
+.container_works ul li{
+    width: 200px;
+    min-width: 200px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.header ul li:first-child{
+    border-left: 1px solid #ddd;
+}

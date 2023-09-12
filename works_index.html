@@ -15,14 +15,130 @@
             <a href="index.html"><img src="img/logo.svg" alt="Tosa Information Science Club"></a>
             <h1>情報科学研究同好会</h1>
         </div>
+        <!-- ジャンルごとにボタンで表示非表示 -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script>
+        $(function() {
+            $(".Scratch").click(function() {
+                $(".Scratch_W").removeClass("Hidden");
+                $(".Python_W").addClass("Hidden");
+                $(".PixelArt_W").addClass("Hidden");
+                $(".Model_W").addClass("Hidden");
+                $(".Song_W").addClass("Hidden");
+            });
+            $(".Python").click(function() {
+                $(".Scratch_W").addClass("Hidden");
+                $(".Python_W").removeClass("Hidden");
+                $(".PixelArt_W").addClass("Hidden");
+                $(".Model_W").addClass("Hidden");
+                $(".Song_W").addClass("Hidden");
+            });
+            $(".PixelArt").click(function() {
+                $(".Scratch_W").addClass("Hidden");
+                $(".Python_W").addClass("Hidden");
+                $(".PixelArt_W").removeClass("Hidden");
+                $(".Model_W").addClass("Hidden");
+                $(".Song_W").addClass("Hidden");
+            });
+            $(".Model").click(function() {
+                $(".Scratch_W").addClass("Hidden");
+                $(".Python_W").addClass("Hidden");
+                $(".PixelArt_W").addClass("Hidden");
+                $(".Model_W").removeClass("Hidden");
+                $(".Song_W").addClass("Hidden");
+            });
+            $(".Song").click(function() {
+                $(".Scratch_W").addClass("Hidden");
+                $(".Python_W").addClass("Hidden");
+                $(".PixelArt_W").addClass("Hidden");
+                $(".Model_W").addClass("Hidden");
+                $(".Song_W").removeClass("Hidden");
+            });
+        });
+        </script>
+        <style>
+        .container_works .Scratch{
+            display: inline-block;
+            font-size: 30px;
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .container_works .Python{
+            display: inline-block;
+            font-size: 30px;
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .container_works .PixelArt{
+            display: inline-block;
+            font-size: 30px;
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .container_works .Model{
+            display: inline-block;
+            font-size: 30px;
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .container_works .Song{
+            display: inline-block;
+            font-size: 30px;
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .container_works{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .B{
+            background: #ffaf74;
+            
+        }
+        .Hidden{
+            display: none;
+        }
+        </style>
+        <div class="container_works">
+            <div class="Scratch">Scratch</div>
+            <div class="Python">Python</div>
+            <div class="PixelArt">ドット絵</div>
+            <div class="Model">3Dモデル</div>
+            <div class="Song">曲</div>
+        </div>
     </header>
+
+    
+
     <nav class="grade w_inner">
         <ul>
-            <li><a href="grade/m1.html">中学１年生 ＞</a></li>
-            <li><a href="grade/m2.html">中学２年生 ＞</a></li>
-            <li><a href="grade/m3.html">中学３年生 ＞</a></li>
-            <li><a href="grade/h1.html">高校１年生 ＞</a></li>
-            <li><a href="grade/h2.html">高校２年生 ＞</a></li>
+            <li class="Scratch_W"><a href="works/python_works1.html">Work_scratch1 ＞</a></li>
+            <li class="Python_W"><a href="works/python_works1.html">Work_python1 ＞</a></li>
+            <li class="PixelArt_W"><a href="works/python_works1.html">Work_pixelart1 ＞</a></li>
+            <li class="Model_W"><a href="works/python_works1.html">Work_model1 ＞</a></li>
+            <li class="Song_W"><a href="works/python_works1.html">Work_song1 ＞</a></li>
+            <li class="Scratch_W"><a href="works/python_works1.html">Work_scratch2 ＞</a></li>
         </ul>
     </nav>
     <footer class="footer">
