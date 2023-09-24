@@ -4,6 +4,8 @@ body{
     font-family: "Hiragino Kaku Gothic Pro","Meiryo","sans-serif";
     font-size: 15px;
     border-top: 10px solid #6495ed;
+    background:linear-gradient(#fbc2eb,#a6c1ee);
+    backdrop-filter: blur(6px);
 }
 a{
     text-decoration: none;

@@ -4,6 +4,8 @@ body{
     font-family: "Hiragino Kaku Gothic Pro","Meiryo","sans-serif";
     font-size: 15px;
     border-top: 10px solid #6495ed;
+    background:linear-gradient(#fbc2eb,#a6c1ee);
+    backdrop-filter: blur(6px);
 }
 a{
     text-decoration: none;
@@ -51,8 +53,14 @@ a{
 }
 .container_news .news{
     width: 600px;
+    height:300px;
     text-align: center;
     margin: 40px auto;
+    background-color: rgba(162, 255, 235, 0.2);
+    border: rgba(162, 255, 235, 0.2) solid 6px;
+    filter:blur(6px);
+    filter: drop-shadow(0 0 0.25em rgba(162, 255, 235, 0.2));
+    border-radius: 5%;
 }
 .container_news h2{
     text-align: center;
