@@ -22,7 +22,7 @@ a{
     margin-bottom: 5px;
 }
 .w_inner{
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 .header ul{
@@ -52,7 +52,7 @@ a{
     justify-content: space-evenly;
 }
 .container_news .news{
-    width: 600px;
+    width: 95%;
     height:300px;
     text-align: center;
     margin: 40px auto;
