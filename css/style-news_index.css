@@ -22,11 +22,7 @@ a{
     margin-bottom: 5px;
 }
 .w_inner{
-<<<<<<< HEAD
-    width: 100%;
-=======
     width: 800px;
->>>>>>> 9e861cd (add all files)
     margin: 0 auto;
 }
 .header ul{
@@ -56,11 +52,7 @@ a{
     justify-content: space-evenly;
 }
 .container_news .news{
-<<<<<<< HEAD
-    width: 95%;
-=======
     width: 600px;
->>>>>>> 9e861cd (add all files)
     height:300px;
     text-align: center;
     margin: 40px auto;
