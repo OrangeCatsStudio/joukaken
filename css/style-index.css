@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+<<<<<<< HEAD
 @media screen and ( min-width:480px )
 {
     body{
@@ -112,17 +113,27 @@
         padding: 7px 0 3px;
     }
 }
+=======
+>>>>>>> 9e861cd (add all files)
 body{
     font-family: "Hiragino Kaku Gothic Pro","Meiryo","sans-serif";
     font-size: 15px;
     border-top: 10px solid #6495ed;
     background:linear-gradient(#fbc2eb,#a6c1ee);
     backdrop-filter: blur(6px);
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9e861cd (add all files)
 }
 a{
     text-decoration: none;
     color: #333;
+<<<<<<< HEAD
+=======
+    backdrop-filter: blur(6px);
+>>>>>>> 9e861cd (add all files)
 }
 .logo{
     text-align: center;
@@ -135,7 +146,11 @@ a{
     margin-bottom: 5px;
 }
 .w_inner{
+<<<<<<< HEAD
     /*width: 800px;*/
+=======
+    width: 800px;
+>>>>>>> 9e861cd (add all files)
     margin: 0 auto;
 }
 .header ul{
@@ -144,11 +159,19 @@ a{
 }
 .header ul li{
     width: 200px;
+<<<<<<< HEAD
     min-width: 50px;
     text-align: center;
     background-color: rgba(255,255,255,0.20);
     border-right: 1px solid #000000;
     /*backdrop-filter: blur(6px);*/
+=======
+    min-width: 200px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.20);
+    border-right: 1px solid #000000;
+    backdrop-filter: blur(6px);
+>>>>>>> 9e861cd (add all files)
     filter: drop-shadow(0 0 1em rgb(78, 78, 78));
 }
 .header ul li:first-child{
@@ -160,12 +183,16 @@ a{
 .header_img{
     text-align: center;
     margin-bottom: 50px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e861cd (add all files)
 }
 .header_img img{
     display: inline-block;
     border: 9px solid #fff;
     border-radius: 30px;
+<<<<<<< HEAD
     width: 100%;
 }
 .container_news .news_block{
@@ -178,20 +205,37 @@ a{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+=======
+}
+.container_news .news_block{
+    display: flex;
+    justify-content: space-between;
+}
+.container_news .news_block .news{
+    width: 240px;
+>>>>>>> 9e861cd (add all files)
     text-align: center;
     background-color: #a1c2ff;
     filter:blur(6px);
     filter: drop-shadow(0 0 0.25em rgb(78, 78, 78));
     border-radius: 5%;
+<<<<<<< HEAD
     margin-bottom: 30px;
 
+=======
+    
+>>>>>>> 9e861cd (add all files)
 }
 .container_news h2{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9e861cd (add all files)
 }
 .container_news .news img{
     margin-bottom: 20px;

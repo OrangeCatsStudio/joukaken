@@ -22,7 +22,7 @@ a{
     margin-bottom: 5px;
 }
 .w_inner{
-    width: 100%;
+    width: 800px;
     margin: 0 auto;
 }
 .grade ul{
@@ -63,4 +63,24 @@ a{
     color:#fff;
     font-size: 12px;
     padding: 7px 0 3px;
+}
+.header_img{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header_img img{
+    display: inline-block;
+    border: 9px solid #fff;
+    border-radius: 30px;
+}
+.w_inner{
+    width: 800px;
+    margin: 0 auto;
+}
+.work_title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.maker_name{
+    font-size: 20px;
 }
